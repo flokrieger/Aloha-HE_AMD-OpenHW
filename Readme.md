@@ -40,7 +40,7 @@ To set up the Vivado project and to synthesize and implement the design, follow 
 
 ### SDK
 1) (a) Launch SDK via Vivado: `File -> Launch SDK` and click OK. OR
- (b) Launch SDK without Vivado project: Open a terminal in `Aloha-HE_Kintex/Bitstream/` and type `xsdk -bit=AlohaHE_wrapper.bit -bmm=AlohaHE_wrapper_bd.bmm -hwspec=AlohaHE_wrapper.hdf` in your console (you may have to add `/tools/Xilinx/SDK/2019.1/` to your PATH).
+ (b) Launch SDK without Vivado project: Open a terminal in `Aloha-HE_Kintex/Bitstream/` and type `xsdk -bit=AlohaHE_wrapper.bit -bmm=AlohaHE_wrapper_bd.bmm -hwspec=AlohaHE_wrapper.hdf` in your console (you may have to add `/tools/Xilinx/SDK/2019.1/bin/` to your PATH).
 2) In SDK, create a new Application project: `File -> New -> Application project`. Enter some name, e.g. "Aloha_App". Click "Next".
 3) Select "Empty Application" and click "Finish".
 4) Open `Aloha_App -> src` and right-click on `src` folder.
@@ -72,13 +72,13 @@ Finally, `POLY_DEGREE` defines the used polynomial degree for testing and benchm
 In the default case, `TEST_ALOHA` and `FAST_ALOHA` are enabled and `POLY_DEGREE` is set to 15.
 
 ## Contributors
-Florian Krieger  -  `florian.krieger (at) iaik.tugraz.at`
+Florian Krieger  -  `florian.krieger (at) tugraz.at`
 
-Florian Hirner  -  `florian.hirner (at) iaik.tugraz.at`
+Florian Hirner  -  `florian.hirner (at) tugraz.at`
 
-Sujoy Sinha Roy  -  `sujoy.sinharoy (at) iaik.tugraz.at`
+Sujoy Sinha Roy  -  `sujoy.sinharoy (at) tugraz.at`
 
-[Institute of Applied Information Processing and Communications](https://www.iaik.tugraz.at/), Graz University of Technology, Austria
+[Institute of Information Security](https://www.isec.tugraz.at/), Graz University of Technology, Austria
 
 -----
 
